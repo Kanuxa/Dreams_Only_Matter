@@ -1,0 +1,53 @@
+.welcome{
+    width: 100%;
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(9, 9, 110);
+}
+
+.welcome h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(9, 9, 110);
+}
+
+.welcome p{
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.welcome img{
+    width: 150px;
+    aspect-ratio: 1;
+    animation: swipe 1s infinite alternate ease-in-out;
+}
+
+@keyframes swipe{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(20px);
+    }
+}
+
+.section{
+    margin: 0 5%;
+}
+
+.section p{
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+    margin: 20px;
+}
